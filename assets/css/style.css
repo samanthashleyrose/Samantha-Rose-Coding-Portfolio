@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-text-color: rgb(255, 255, 255);
+    --header-footer-color: rgb(22, 66, 13);
+    --main-background-color: rgb(142, 179, 142);
+    --nav-background-color: rgb(93, 139, 88);
+    --h2-font-size: 55px;
+    --content-font-size: 33px;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: var(--main-text-color);
+    background-color: var(--main-background-color);
+}
+
+.header {
+    background-color: var(--header-footer-color);
+    padding-top: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    color: var(--main-text-color);
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: var(--nav-background-color);
+    padding-bottom: 2px;
+    justify-content: space-evenly;
+}
+
+nav button a {
+    color: var(--main-text-color);
+    padding: 14px 20px;
+    text-decoration: none;
+    margin-right: auto;
+    margin-left: auto;
+    /*text-align: center;*/
+}
+
+button {
+    width: 24vw;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 27px;
+    background-color: #42842e;
+    border: 3px solid rgb(22, 66, 13);
+}
+
+button:hover {
+    background-color: rgb(22, 66, 13);
+}
+
+/*creating rows to display subjects and contents */
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: flex-start;
+}
+
+.row h2 {
+    padding: 150px;
+    border-right: 10px solid #42842e;
+    flex: 0 0 30%;
+}
+
+.row p {
+    margin: 100px;
+    margin-top: 150px;
+}
+
+#h2-about,
+#h2-projects,
+#h2-contact {
+    font-size: var(--h2-font-size);
+}
+
+p {
+    font-size: var(--content-font-size);
+}
+
+a {
+    font-size: var(--content-font-size);
+}
+
+.small-pics {
+    display: flex;
+    flex-direction: row;
+}
+
+#img1 {
+    background-image: url("../images/Screenshot\ Horiseon\ Website.png");
+    background-size: 1233px;
+    height: 777px;
+    width: 1233px;
+    margin-left: 100px;
+    border: 27px solid #42842e;
+    border-style: groove;
+}
+
+#img2 {
+    background-image: url(../images/peace-lily-coming\ soon-1_thumbnail.png);
+    height: 333px;
+    width: 602px;
+    margin-left: 100px;
+    border: 27px solid #42842e;
+    border-style: groove;
+}
+
+#img3 {
+    background-image: url(../images/peace-lily-coming\ soon-2_thumbnail.png);
+    height: 333px;
+    width: 602px;
+    margin-left: 27px;
+    border: 27px solid #42842e;
+    border-style: groove;
+}
+
+h3 {
+    color: var(--main-text-color);
+    background-color: var(--header-footer-color);
+    border: 10px solid rgb(22, 66, 13);
+}
+
+.footer {
+    background-color: var(--header-footer-color);
+    color: var(--main-text-color);
+    padding: 27px;
+    margin-inline: -20px;
+    margin-top: 10px;
+}
