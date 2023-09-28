@@ -18,7 +18,7 @@ N/A
 
 You may begin by using the Navigation Links to bring you to your desired topic. The images displaying my projects are active links to the deployed sites. In addition, a link to my GitHub Portfolio is attached to both the GitHub nav icon and my GitHub username (located under Contact Me).
 
-At this time, the suggested viewing ratio is 1705 x 906 to avoid distortion of text and styling. This will ultimately be updated to become a more responsive site as I continue to progress and learn.
+At this time, the suggested viewing ratio is 1705 x 906 to avoid distortion of text and styling. This will ultimately be updated to become a more responsive site as I continue to progress and learn. <a href="https://samanthashleyrose.github.io/Samantha-Rose-Coding-Portfolio/">View Samantha Rose's Coding Portfolio</a>
 
 ![Fullscren Screenshot of Portfolio](assets/images/fullscreen-sc-portfolio.png)
 
@@ -30,10 +30,6 @@ At this time, the suggested viewing ratio is 1705 x 906 to avoid distortion of t
 <li>Robby Kurkle (Tutor) <link><a href="https://github.com/rfnkurle">GitHub Portfolio</a></link></li>
 <li>AskBCS Learning Assistants</li>
 
-
-
-
-
 #### Documentation Used:
 
 <li><link><a href="https://chat.openai.com/">ChatGPT</a></link></li>
@@ -41,7 +37,6 @@ At this time, the suggested viewing ratio is 1705 x 906 to avoid distortion of t
 <li><link><a href="https://www.w3schools.com/css/css3_buttons.asp">W3Schools CSS Buttons</a></link></li>
 <li><link><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS-Tricks A Complete Guide to Flexbox</a></link></li>
 <li><link><a href="https://www.youtube.com/watch?v=K24lUqcT0Ms">Master Media Queries And Responsive CSS Web Design - Slaying The Dragon YouTube Channel</a></link></li>
-
 
 ## License
 
