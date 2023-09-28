@@ -2,17 +2,13 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-A complete portfolio showcasing skills, accomplishments, and contact information.
+Between work emails, social media, and open-source communities (like GitHub) there are a million different ways to learn about a potential employee or colleague. By creating a complete portfolio showcasing my skills, accomplishments, and contact information solves any hassle one may experience. Everything you need to know about me can be found in one convenient place, my personal portfolio. 
 
 During the build of this site I learned the value of:
- - 
+ - Flexbox and Media Queries
+    - When creating a site in today's world it's important to make it responsive for all screen sizes. I admit I did struggle while finding my footing with these CSS tools but I am continuing to get better as I practice with this project.
+ - Patience
+    - As time goes on my skills will continue to grow and develop. I am eager see how much my portfolio improves as I implement the new skills/techniques that I learn along the way. By the end of this bootcamp course, I intend to have my portfolio functioning on all screens while utilizing HTML, CSS, and JS.
 
 ## Installation
 
@@ -20,51 +16,32 @@ N/A
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+You may begin by using the Navigation Links to bring you to your desired topic. The images displaying my projects are active links to the deployed sites. In addition, a link to my GitHub Portfolio is attached to both the GitHub nav icon and my GitHub username (located under Contact Me).
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+At this time, the suggested viewing ratio is 1705 x 906 to avoid distortion of text and styling. This will ultimately be updated to become a more responsive site as I continue to progress and learn.
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+![Fullscren Screenshot of Portfolio](assets/images/fullscreen-sc-portfolio.png)
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
-
-Knowledge Assitance From:
+#### Knowledge Assitance From:
+<li>Lee Warrick <link><a href="https://leewarrick.com/">Personal Portfolio</a></link></li>
+<li>Mia Ciasullo <link><a href="https://github.com/miacias/first-portfolio">GitHub Portfolio</a></link></li>
+<li>Robby Kurkle (Tutor) <link><a href="https://github.com/rfnkurle">GitHub Portfolio</a></link></li>
 
 
 
+
+
+#### Documentation Used:
+
+<li><link><a href="https://chat.openai.com/">ChatGPT</a></link></li>
+<li><link><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:root">MDN Web Docs :root</a></link></li>
+<li><link><a href="https://www.w3schools.com/css/css3_buttons.asp">W3Schools CSS Buttons</a></link></li>
+<li><link><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS-Tricks A Complete Guide to Flexbox</a></link></li>
+<li><link><a href="https://www.youtube.com/watch?v=K24lUqcT0Ms">Master Media Queries And Responsive CSS Web Design - Slaying The Dragon YouTube Channel</a></link></li>
 
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+Please refer to the MIT LICENSE in the repo.
