@@ -28,6 +28,7 @@ At this time, the suggested viewing ratio is 1705 x 906 to avoid distortion of t
 <li>Lee Warrick <link><a href="https://leewarrick.com/">Personal Portfolio</a></link></li>
 <li>Mia Ciasullo <link><a href="https://github.com/miacias/first-portfolio">GitHub Portfolio</a></link></li>
 <li>Robby Kurkle (Tutor) <link><a href="https://github.com/rfnkurle">GitHub Portfolio</a></link></li>
+<li>AskBCS Learning Assistants</li>
 
 
 
