@@ -1,3 +1,4 @@
+/* MAIN COLORS & FONT SIZES */
 :root {
     --main-text-color: rgb(255, 255, 255);
     --header-footer-color: rgb(22, 66, 13);
@@ -12,6 +13,7 @@ body {
     background-color: var(--main-background-color);
 }
 
+/* HEADER */
 .header {
     background-color: var(--header-footer-color);
     padding-top: 3%;
@@ -21,6 +23,7 @@ body {
     text-align: center;
 }
 
+/* NAV */
 nav {
     display: flex;
     flex-wrap: wrap;
@@ -50,6 +53,7 @@ button:hover {
     background-color: rgb(22, 66, 13);
 }
 
+/* ALL SECTIONS */
 .row {
     display: flex;
     flex-direction: row;
@@ -72,15 +76,13 @@ button:hover {
     margin-bottom: 3%;
 }
 
-p,
-a {
-    font-size: var(--content-font-size);
-}
-
+/* ABOUT ME */
 .p-1 {
+    font-size: var(--content-font-size);
     max-width: 63.5%;
 }
 
+/* PROJECTS */
 #img1 { 
     width: 89%;
     margin-left: 2.2%;
@@ -138,6 +140,7 @@ a {
   padding: 10px;
 }
 
+/* CONTACT ME */
 .p-3 {
     max-width: 100%;
     display: flex;
@@ -167,6 +170,7 @@ a {
     border-bottom: .3vw solid #42842e;
 }
 
+/* FOOTER */
 .footer {
     background-color: var(--header-footer-color);
     color: var(--main-text-color);
