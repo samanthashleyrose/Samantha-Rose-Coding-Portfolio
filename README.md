@@ -16,9 +16,7 @@ N/A
 
 ## Usage
 
-You may begin by using the Navigation Links to bring you to your desired topic. The images displaying my projects are active links to the deployed sites. In addition, a link to my GitHub Portfolio is attached to both the GitHub nav icon and my GitHub username (located under Contact Me).
-
-At this time, the suggested viewing ratio is 1705 x 906 to avoid distortion of text and styling. This will ultimately be updated to become a more responsive site as I continue to progress and learn. <a href="https://samanthashleyrose.github.io/Samantha-Rose-Coding-Portfolio/">View Samantha Rose's Coding Portfolio</a>
+You may begin by using the Navigation Links to bring you to your desired topic. The images displaying my projects are active links to the deployed sites. In addition, a link to my GitHub Portfolio is attached to both the GitHub nav icon and my GitHub username (located under Contact Me). <a href="https://samanthashleyrose.github.io/Samantha-Rose-Coding-Portfolio/">View Samantha Rose's Coding Portfolio</a>
 
 ![Fullscren Screenshot of Portfolio](assets/images/fullscreen-sc-portfolio.png)
 
