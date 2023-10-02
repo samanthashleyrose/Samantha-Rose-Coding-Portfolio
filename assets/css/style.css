@@ -215,7 +215,7 @@ button:hover {
 /* RESPONSIVENESS */
 
 /* XXS -- EX. iPhone 5/SE */
-@media (min-width: 320px) {
+@media (min-width: 300px) {
     .header {
         font-size: 1.1rem;
     }
@@ -233,7 +233,7 @@ button:hover {
     }
     #h2-about {
         font-size: 1.2rem;
-        padding-right: 14.5%;
+        padding-right: 15.1%;
         border-right: .7vw solid #42842e;
     }
     #h2-projects,
@@ -273,17 +273,17 @@ button:hover {
         font-size: .8rem;
     }
     .a-1 {
-        font-size: .63rem;
+        font-size: .57rem;
         border-bottom: .5vw solid #42842e;
     }
     .a-2 {
         margin-left: 0%;
-        font-size: .63rem;
+        font-size: .6rem;
         border-bottom: .5vw solid #42842e;
     }
     .a-3 {
         margin-left: 0%;
-        font-size: .63rem;
+        font-size: .6rem;
         border-bottom: .5vw solid #42842e;
     }
 }
