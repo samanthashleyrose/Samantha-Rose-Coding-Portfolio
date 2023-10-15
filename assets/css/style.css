@@ -104,7 +104,7 @@ button:hover {
 }
 
 .img1 {
-    background-image: url(../images/Random-Pass-Gen-sc.png);
+    background-image: url(../images/Mandela-Effect-Challenge.png);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 50%;
@@ -122,7 +122,7 @@ button:hover {
 }
 
 .img2 {
-    background-image: url(../images/screenshot-horiseon-website.png);
+    background-image: url(../images/Random-Pass-Gen-sc.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -135,11 +135,48 @@ button:hover {
     display: flex;
     flex: content;
     margin-left: 70%;
-    margin-top: -36%;
+    margin-top: -66%;
     margin-bottom: 3%;
 }
 
 .img3 {
+    background-image: url(../images/screenshot-horiseon-website.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 86%;
+    border: 1vw solid #42842e;
+    border-style: groove;
+}
+
+.img-container4 {
+    display: flex;
+    flex: content;
+    margin-left: 20%;
+    margin-top: -10%;
+    margin-bottom: 3%;
+    padding: 4%;
+}
+
+.img4 {
+    background-image: url(../images/peace-lily1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 86%;
+    border: 1vw solid #42842e;
+    border-style: groove;
+}
+
+.img-container5 {
+    display: flex;
+    flex: content;
+    margin-left: 70%;
+    margin-top: -36%;
+    margin-bottom: 3%;
+}
+
+.img5 {
     background-image: url(../images/peace-lily2.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -248,12 +285,12 @@ button:hover {
     }
     .img1 {
         background-size: 100%;
-        height: 40%;
+        height: 37%;
         width: 100%;
     }
     .img-container2 {
         margin-left: 50%;
-        margin-top: -46%;
+        margin-top: -48%;
         margin-bottom: 3%;
     }
     .img2 {
@@ -322,12 +359,12 @@ button:hover {
     }
     .img1 {
         background-size: 100%;
-        height: 40%;
+        height: 38%;
         width: 100%;
     }
     .img-container2 {
         margin-left: 48%;
-        margin-top: -46%;
+        margin-top: -47%;
         margin-bottom: 3%;
     }
     .img2 {
@@ -534,7 +571,7 @@ button:hover {
     }
     .img1 {
         background-size: 100%;
-        height: 50%;
+        height: 48%;
         width: 100%;
     }
     .img-container2 {
@@ -611,7 +648,7 @@ button:hover {
     }
     .img1 {
         background-size: 100%;
-        height: 60%;
+        height: 57%;
         width: 100%;
     }
     .img-container2 {
@@ -686,7 +723,7 @@ button:hover {
     }
     .img1 {
         background-size: 100%;
-        height: 60%;
+        height: 56%;
         width: 100%;
     }
     .img-container2 {
@@ -761,7 +798,7 @@ button:hover {
     }
     .img1 {
         background-size: 100%;
-        height: 60%;
+        height: 56%;
         width: 100%;
     }
     .img-container2 {
@@ -839,7 +876,7 @@ button:hover {
     }
     .img1 {
         background-size: 100%;
-        height: 60%;
+        height: 56%;
         width: 100%;
     }
     .img-container2 {
@@ -904,7 +941,12 @@ button:hover {
         padding-right: 0%;
         border-right: .35vw solid #42842e;
     }
-    #h2-projects,
+    #h2-projects {
+        font-size: 3rem;
+        padding-right: 5%;
+        padding-bottom: 92%;
+        border-right: .35vw solid #42842e;
+    }
     #h2-contact {
         font-size: 3rem;
         padding-right: 5%;
@@ -914,30 +956,49 @@ button:hover {
         margin-top: 5.9%;
     }
     .img-container1 {
-        margin-top: -65%;
+        margin-top: -97%;
         margin-left: 32%;
     }
     .img1 {
         background-size: 100%;
-        height: 60%;
+        height: 34%;
         width: 100%;
     }
     .img-container2 {
         margin-left: 32%;
-        margin-top: -26%;
+        margin-top: -62%;
         margin-bottom: 3%;
     }
     .img2 {
-        height: 100%;
+        height: 40%;
         width: 45%;
     }
     .img-container3 {
         margin-left: 66%;
-        margin-top: -26%;
+        margin-top: -62%;
         margin-bottom: 3%;
     }
     .img3 {
-        height: 100%;
+        height: 40%;
+        width: 87%;
+    }
+    .img-container4 {
+        margin-left: 28%;
+        margin-top: -40%;
+        margin-bottom: 3%;
+    }
+    .img4 {
+        height: 80%;
+        width: 48%;
+    }
+    .img-container5 {
+        margin-left: 66%;
+        margin-top: -36%;
+        margin-bottom: 3%;
+    }
+    .img5 {
+        background-size: 90%;
+        height: 70%;
         width: 87%;
     }
     .img-text {
