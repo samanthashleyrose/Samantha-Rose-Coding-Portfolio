@@ -114,6 +114,7 @@ h2 {
     flex-direction: column;
     flex-wrap: wrap;
     padding-right: 5%;
+    padding-bottom: 100%;
     border-right: .35vw solid #42842e;
     font-size: 3rem;
 }
@@ -270,7 +271,6 @@ h2 {
     margin-top: 10%;
 }
 
-
 /* ALL IMGS TITLES */
 .img-title {
     background-color: var(--header-footer-color);
@@ -326,7 +326,6 @@ h2 {
     text-decoration: none;
     color: inherit;
     border-bottom: .3vw solid #42842e;
-    /* margin: 10%; */
 }
 
 #a-3 {
