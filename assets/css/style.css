@@ -14,8 +14,14 @@ body {
 }
 
 /* HEADER */
-.header {
+.header-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     background-color: var(--header-footer-color);
+}
+
+.header-info {
     padding-top: 3%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 3rem;
@@ -23,8 +29,9 @@ body {
     text-align: center;
 }
 
-.header img {
-    max-width: 100%;
+.header-img {
+    max-width: 30%;
+    align-self: center;
 }
 
 /* NAV */
@@ -57,156 +64,165 @@ button:hover {
 }
 
 /* ALL SECTIONS */
-.row {
+main {
     display: flex;
-    margin-left: 10%;
-    margin-right: 5%;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 /* ABOUT ME */
-#h2-about {
-    padding-top: .2%;
-    padding-bottom: 11%;
+.about-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 5%;
+}
+
+.h2-about-col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-right: 5%;
     border-right: .35vw solid #42842e;
-    margin-top: 5%;
-    margin-bottom: 2%;
-    flex: 0 0 27%;
     font-size: 3rem;
 }
 
-.p-1 {
+.p-about-col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     font-size: var(--content-font-size);
-    max-width: 63.5%;
     margin-left: 5%;
-    margin-top: 5.5%;
-    margin-bottom: 3%;
 }
 
 /* PROJECTS */
-#h2-projects {
-    padding-top: .2%;
-    padding-bottom: 70%;
+.projects-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 5%;
+}
+
+.h2-projects-col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-right: 5%;
     border-right: .35vw solid #42842e;
-    margin-top: 5%;
-    margin-bottom: 2%;
-    flex: 0 0 27%;
     font-size: 3rem;
 }
 
-.images {
+.images-col {
     display: flex;
-    flex-wrap: nowrap;
     flex-direction: column;
-    position: relative;
+    flex-wrap: wrap;
+    font-size: var(--content-font-size);
+    width: 100%;
+    margin-left: 5%;
 }
 
-.img-container1 {
+/* LARGE IMG ROW */
+.large-img-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    flex-basis: 63.5%; 
-    margin-left: 37%;
-    margin-top: -64%;
-    margin-bottom: 3%;
-    padding-bottom: 0%;
+    max-width: 100%;
 }
 
-.img1 {
+.large-img {
     background-image: url(../images/Meal2Reel-Empty-SC.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 500px;
-    width: 850px;
+    height: 250px;
     border: 1vw solid #42842e;
     border-style: groove;
 }
 
+/* 1ST SMALL IMG ROW */
 .small-img-container-1 {
     display: flex;
-    flex-wrap: nowrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.small-img-container-2 {
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-.img-container2 {
+.img-1-container {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    margin-left: 136%;
-    margin-top: -140%;
-    margin-bottom: 3%;
+    flex-wrap: wrap;
+    width: 45%;
 }
 
-.img2 {
+.small-img-1 {
     background-image: url(../images/Weather-Dashboard-SC.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
-    width: 300px;
     border: 1vw solid #42842e;
     border-style: groove;
+    margin-top: 10%;
 }
 
-.img-container3 {
+.img-2-container {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    margin-left: 100%;
-    margin-top: -140%;
-    margin-bottom: 3%;
+    flex-wrap: wrap;
+    width: 45%;
 }
 
-.img3 {
+.small-img-2 {
     background-image: url(../images/Mandela-Effect-Challenge.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
-    width: 300px;
     border: 1vw solid #42842e;
     border-style: groove;
+    margin-top: 10%;
 }
 
-.img-container4 {
+/* 2ND SMALL IMG ROW */
+.small-img-container-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.img-3-container {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    margin-left: 136%;
-    margin-top: -40%;
-    margin-bottom: 3%;
+    flex-wrap: wrap;
+    width: 45%;
 }
 
-.img4 {
+.small-img-3 {
     background-image: url(../images/Random-Pass-Gen-sc.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
-    width: 300px;
     border: 1vw solid #42842e;
     border-style: groove;
+    margin-top: 10%;
 }
 
-.img-container5 {
+.img-4-container {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    margin-left: 100%;
-    margin-top: -40%;
-    margin-bottom: 3%;
+    flex-wrap: wrap;
+    width: 45%;
 }
 
-.img5 {
+.small-img-4 {
     background-image: url(../images/screenshot-horiseon-website.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
-    width: 300px;
     border: 1vw solid #42842e;
     border-style: groove;
+    margin-top: 10%;
 }
 
+/* ALL IMGS TITLES */
 .img-title {
     background-color: var(--header-footer-color);
     padding: 1%;
@@ -221,23 +237,28 @@ button:hover {
 }
 
 /* CONTACT ME */
-#h2-contact {
-    padding-top: .2%;
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 5%;
+}
+
+.h2-contact-col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-right: 5%;
     border-right: .35vw solid #42842e;
-    margin-top: 5%;
-    margin-bottom: 2%;
-    flex: 0 0 27%;
     font-size: 3rem;
 }
 
-.p-3 {
-    flex: auto;
-    flex-basis: auto;
+.p-contact-col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     font-size: var(--content-font-size);
-    max-width: 63.5%;
     margin-left: 5%;
-    margin-top: 5.5%;
-    margin-bottom: 3%;
 }
 
 .a-1 {
@@ -251,7 +272,6 @@ button:hover {
     font-size: 1.5rem;
     text-decoration: none;
     color: inherit;
-    margin-left: 5%;
     border-bottom: .3vw solid #42842e;
 }
 
@@ -259,7 +279,6 @@ button:hover {
     font-size: 1.5rem;
     text-decoration: none;
     color: inherit;
-    margin-left: 5%;
     border-bottom: .3vw solid #42842e;
 }
 
