@@ -85,6 +85,11 @@ main {
     padding-right: 5%;
     border-right: .35vw solid #42842e;
     font-size: 3rem;
+    max-width: 100%;
+}
+
+h2 {
+    width: 50%;
 }
 
 .p-about-col {
@@ -93,6 +98,7 @@ main {
     flex-wrap: wrap;
     font-size: var(--content-font-size);
     margin-left: 5%;
+    width: 100%;
 }
 
 /* PROJECTS */
@@ -222,6 +228,49 @@ main {
     margin-top: 10%;
 }
 
+/* 3RD SMALL IMG ROW */
+.small-img-container-3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.img-5-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 45%;
+}
+
+.small-img-5 {
+    background-image: url(../images/peace-lily1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    border: 1vw solid #42842e;
+    border-style: groove;
+    margin-top: 10%;
+}
+
+.img-6-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 45%;
+}
+
+.small-img-6 {
+    background-image: url(../images/peace-lily2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    border: 1vw solid #42842e;
+    border-style: groove;
+    margin-top: 10%;
+}
+
+
 /* ALL IMGS TITLES */
 .img-title {
     background-color: var(--header-footer-color);
@@ -253,32 +302,36 @@ main {
     font-size: 3rem;
 }
 
-.p-contact-col {
+.contact-col {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     font-size: var(--content-font-size);
     margin-left: 5%;
+    width: 100%;
 }
 
-.a-1 {
+.anchors {
+    display: block;
+}
+
+#a-1 {
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-bottom: .3vw solid #42842e;
+}
+
+#a-2 {
     font-size: 1.5rem;
     text-decoration: none;
     color: inherit;
     border-bottom: .3vw solid #42842e;
+    /* margin: 10%; */
 }
 
-.a-2 {
+#a-3 {
     font-size: 1.5rem;
     text-decoration: none;
-    color: inherit;
-    border-bottom: .3vw solid #42842e;
-}
-
-.a-3 {
-    font-size: 1.5rem;
-    text-decoration: none;
-    color: inherit;
     border-bottom: .3vw solid #42842e;
 }
 
