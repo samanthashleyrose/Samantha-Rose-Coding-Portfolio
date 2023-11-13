@@ -12,7 +12,7 @@ During the build of this site I learned the value of:
 
 ## Installation
 
-N/A
+No installation necessary!
 
 ## Usage
 
