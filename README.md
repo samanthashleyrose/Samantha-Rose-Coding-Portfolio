@@ -1,8 +1,8 @@
-# Samantha-Rose-Coding-Portfolio
+# Samantha Rose's First Coding Portfolio
 
 ## Description
 
-Between work emails, social media, and open-source communities (like GitHub) there are a million different ways to learn about a potential employee or colleague. By creating a complete portfolio showcasing my skills, accomplishments, and contact information solves any hassle one may experience. Everything you need to know about me can be found in one convenient place, my personal portfolio. 
+Between work emails, social media, and open-source communities (like GitHub) there are a million different ways to learn about a potential employee or colleague. Creating a complete portfolio showcasing my skills, accomplishments, and contact information solves any hassle one may experience. Everything you need to know about me can be found in one convenient place, my personal portfolio. 
 
 During the build of this site I learned the value of:
  - Flexbox and Media Queries
