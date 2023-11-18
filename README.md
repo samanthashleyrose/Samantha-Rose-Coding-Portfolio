@@ -23,18 +23,18 @@ You may begin by using the Navigation Links to bring you to your desired topic. 
 ## Credits
 
 #### Knowledge Assitance From:
-<li>Lee Warrick <link><a href="https://leewarrick.com/">Personal Portfolio</a></link></li>
-<li>Mia Ciasullo <link><a href="https://github.com/miacias/first-portfolio">GitHub Portfolio</a></link></li>
-<li>Robby Kurkle (Tutor) <link><a href="https://github.com/rfnkurle">GitHub Portfolio</a></link></li>
+<li>Lee Warrick <a href="https://leewarrick.com/">Personal Portfolio</a></li>
+<li>Mia Ciasullo <a href="https://github.com/miacias/first-portfolio">GitHub Portfolio</a></li>
+<li>Robby Kurkle (Tutor) <a href="https://github.com/rfnkurle">GitHub Portfolio</a></li>
 <li>AskBCS Learning Assistants</li>
 
 #### Documentation Used:
 
-<li><link><a href="https://chat.openai.com/">ChatGPT</a></link></li>
-<li><link><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:root">MDN Web Docs :root</a></link></li>
-<li><link><a href="https://www.w3schools.com/css/css3_buttons.asp">W3Schools CSS Buttons</a></link></li>
-<li><link><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS-Tricks A Complete Guide to Flexbox</a></link></li>
-<li><link><a href="https://www.youtube.com/watch?v=K24lUqcT0Ms">Master Media Queries And Responsive CSS Web Design - Slaying The Dragon YouTube Channel</a></link></li>
+<li><a href="https://chat.openai.com/">ChatGPT</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:root">MDN Web Docs :root</a></li>
+<li><a href="https://www.w3schools.com/css/css3_buttons.asp">W3Schools CSS Buttons</a></li>
+<li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS-Tricks A Complete Guide to Flexbox</a></li>
+<li><a href="https://www.youtube.com/watch?v=K24lUqcT0Ms">Master Media Queries And Responsive CSS Web Design - Slaying The Dragon YouTube Channel</a></li>
 
 ## License
 
