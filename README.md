@@ -1,4 +1,5 @@
 # Samantha Rose's First Coding Portfolio
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
 
@@ -38,4 +39,4 @@ You may begin by using the Navigation Links to bring you to your desired topic. 
 
 ## License
 
-Please refer to the MIT LICENSE in the repo.
+This project is licensed under the <a href="https://opensource.org/licenses/MIT">MIT LICENSE</a> - see the [LICENSE](./LICENSE) file for details.
