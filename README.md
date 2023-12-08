@@ -5,12 +5,6 @@
 
 Between work emails, social media, and open-source communities (like GitHub) there are a million different ways to learn about a potential employee or colleague. Creating a complete portfolio showcasing my skills, accomplishments, and contact information solves any hassle one may experience. Everything you need to know about me can be found in one convenient place, my personal portfolio. 
 
-During the build of this site I learned the value of:
- - Flexbox and Media Queries
-    - When creating a site in today's world it's important to make it responsive for all screen sizes. I admit I did struggle while finding my footing with these CSS tools but I am continuing to get better as I practice with this project.
- - Patience
-    - As time goes on my skills will continue to grow and develop. I am eager see how much my portfolio improves as I implement the new skills/techniques that I learn along the way. By the end of this bootcamp course, I intend to have my portfolio functioning on all screens while utilizing HTML, CSS, and JS.
-
 ## Installation
 
 No installation necessary!
