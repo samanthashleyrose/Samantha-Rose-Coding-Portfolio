@@ -85,7 +85,7 @@ main {
     flex-wrap: wrap;
     padding-right: 5%;
     border-right: .35vw solid #42842e;
-    font-size: 3rem;
+    font-size: 2.8rem;
     max-width: 100%;
 }
 
@@ -117,7 +117,7 @@ h2 {
     flex-wrap: wrap;
     padding-right: 5%;
     border-right: .35vw solid #42842e;
-    font-size: 3rem;
+    font-size: 2.8rem;
 }
 
 .images-col {
@@ -379,7 +379,7 @@ h2 {
     flex-wrap: wrap;
     padding-right: 5%;
     border-right: .35vw solid #42842e;
-    font-size: 3rem;
+    font-size: 2.8rem;
 }
 
 .contact-col {
