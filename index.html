@@ -10,17 +10,17 @@
 </head>
 
 <body>
-       <!--HEADER-->
+    <!--HEADER-->
     <header class="header-container">
         <h1 class="header-info">Samantha Rose</h1>
         <img class="header-img" src="./assets/images/peace_lily_header_thumbnail.png" alt="Peace Lily Flower Cover Art">
     </header>
-        <!--NAV-->
+    <!--NAV-->
     <nav>
-        <button><a href="#h2-about">ABOUT ME</a></button>
-        <button><a href="#h2-projects">PROJECTS</a></button>
-        <button><a href="#h2-contact">CONTACT ME</a></button>
-        <button><a href="https://github.com/samanthashleyrose">GITHUB</a></button>
+        <button id="about-btn">ABOUT ME</button>
+        <button id="projects-btn">PROJECTS</button>
+        <button id="contact-btn">CONTACT ME</button>
+        <button id="github-btn">GITHUB</button>
     </nav>
 
 
@@ -28,122 +28,165 @@
         <!--ABOUT ME-->
         <section class="about-container" id="h2-about">
             <h2 class="h2-about-col">ABOUT ME</h2>
-            <p class="p-about-col">With a professional background in customer service and manual labor within a warehouse setting, I have recently transitioned into the realm of web development. This career change signifies a necessary step in my professional journey. Embracing coding as a new endeavor, I approach it with both eagerness to learn and a determination to excel.
-            <br>
-            <br>
-            Displayed below are icons representing projects completed during Uconn's FullStack Bootcamp Course, illustrating proficiency in HTML, CSS, JavaScript, Node.js, React, MySql, and NoSQL. To explore each project, click on the image's title to be brought to the deployed application. Additionally, see the GitHub link under Contact Me for each project's repository information.
-            <br>
-            <br>
-            As you navigate through my portfolio, you will observe how mastering the foundational principles and techniques of each technology translates into high-functioning performance and seamless design.
+            <p class="p-about-col">With a professional background in customer service and manual labor within a
+                warehouse setting, I have recently transitioned into the realm of web development. This career change
+                signifies a necessary step in my professional journey. Embracing coding as a new endeavor, I approach it
+                with both eagerness to learn and a determination to excel.
+                <br>
+                <br>
+                Displayed below are icons representing projects completed during Uconn's FullStack Bootcamp Course,
+                illustrating proficiency in HTML, CSS, JavaScript, Node.js, React, MySql, and NoSQL. To explore each
+                project, click on the image's title to be brought to the deployed application. Additionally, see the
+                GitHub link under Contact Me for each project's repository information.
+                <br>
+                <br>
+                As you navigate through my portfolio, you will observe how mastering the foundational principles and
+                techniques of each technology translates into high-functioning performance and seamless design.
             </p>
         </section>
         <!--PROJECTS-->
         <section class="projects-container" id="h2-projects">
             <h2 class="h2-projects-col">PROJECTS</h2>
-        <!--PROJECT IMGS-->
-        <!--LARGE IMG-->
-        <div class="images-col">
-            <div class="large-img1-container">
-                <div class="large-img1">
-                    <div class="img-title">
-                    <a href="https://rooms-3226fb27d847.herokuapp.com/" class="img-text"><h4>rööms</h4></a>
+            <!--PROJECT IMGS-->
+            <!--LARGE IMG-->
+            <div class="images-col">
+                <div class="large-img-container">
+                    <div class="large-img1-container">
+                        <div class="large-img1">
+                            <div class="img-title">
+                                <a href="https://rooms-3226fb27d847.herokuapp.com/" class="img-text">
+                                    <h4>rööms</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="large-img2-container">
+                        <div class="large-img2">
+                            <div class="img-title">
+                                <a href="https://samanthashleyrose.github.io/Meal2Reel/" class="img-text">
+                                    <h4>Meal2Reel</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--SMALL IMGS-->
+                <!-- ROW 1 -->
+                <div class="small-img-container-1">
+                    <div class="img-1-container">
+                        <div class="small-img-1">
+                            <div class="img-title">
+                                <a href="https://samanthashleyrose.github.io/LeeQuotes.com/" class="img-text"
+                                    alt-text="screenshot of LeeQuotes.com">
+                                    <h4>LeeQuotes.com</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-2-container">
+                        <div class="small-img-2">
+                            <div class="img-title">
+                                <a href="https://samanthashleyrose.github.io/Mandela-Effect-Challenge/" class="img-text"
+                                    alt="screenshot of Mandela Effect Challenge">
+                                    <h4>Mandela Effect Challenge</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ROW 2 -->
+                <div class="small-img-container-2">
+                    <div class="img-3-container">
+                        <div class="small-img-3">
+                            <div class="img-title">
+                                <a href="https://note-taker-application-327-02a5ee5b2f69.herokuapp.com/"
+                                    class="img-text" alt="screenshot of Note Taker">
+                                    <h4>Note Taker</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-4-container">
+                        <div class="small-img-4">
+                            <div class="img-title">
+                                <a href="https://samanthashleyrose.github.io/Work-Day-Scheduler/" class="img-text"
+                                    alt="screenshot of Work Day Scheduler">
+                                    <h4>Work Day Scheduler</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ROW 3 -->
+                <div class="small-img-container-3">
+                    <div class="img-5-container">
+                        <div class="small-img-5">
+                            <div class="img-title">
+                                <a href="https://samanthashleyrose.github.io/Weather-Dashboard/" class="img-text"
+                                    alt="screenshot of Weather Dashboard">
+                                    <h4>Weather Dashboard</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-6-container">
+                        <div class="small-img-6">
+                            <div class="img-title">
+                                <a href="https://samanthashleyrose.github.io/Random-Password-Generator/"
+                                    class="img-text" alt="screenshot of Random Password Generator">
+                                    <h4>Random Password Generator</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ROW 4 -->
+                <div class="small-img-container-4">
+                    <div class="img-7-container">
+                        <div class="small-img-7">
+                            <div class="img-title">
+                                <a href="https://github.com/samanthashleyrose/README-generator" class="img-text"
+                                    alt="screenshot of README Generator description">
+                                    <h4>README Generator</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-8-container">
+                        <div class="small-img-8">
+                            <div class="img-title">
+                                <a href="https://github.com/samanthashleyrose/SVG-Logo-Generator" class="img-text"
+                                    alt="screenshot of SVG Logo Generator description">
+                                    <h4>SVG Logo Generator</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ROW 5 -->
+                <div class="small-img-container-5">
+                    <div class="img-9-container">
+                        <div class="small-img-9">
+                            <div class="img-title">
+                                <a href="https://github.com/samanthashleyrose" class="img-text"
+                                    alt-="coming soon peace lily image">
+                                    <h4>Coming Soon</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-10-container">
+                        <div class="small-img-10">
+                            <div class="img-title">
+                                <a href="https://github.com/samanthashleyrose" class="img-text"
+                                    alt="coming soon peace lily image">
+                                    <h4>Coming Soon</h4>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="large-img2-container">
-                <div class="large-img2">
-                    <div class="img-title">
-                    <a href="https://samanthashleyrose.github.io/Meal2Reel/" class="img-text"><h4>Meal2Reel</h4></a>
-                    </div>
-                </div>
-            </div>
-        <!--SMALL IMGS-->
-            <!-- ROW 1 -->
-            <div class="small-img-container-1">
-                <div class="img-1-container">
-                    <div class="small-img-1">
-                        <div class="img-title">
-                        <a href="https://samanthashleyrose.github.io/LeeQuotes.com/" class="img-text" alt-text="screenshot of LeeQuotes.com"><h4>LeeQuotes.com</h4></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="img-2-container">
-                    <div class="small-img-2">
-                        <div class="img-title">
-                        <a href="https://samanthashleyrose.github.io/Mandela-Effect-Challenge/" class="img-text" alt="screenshot of Mandela Effect Challenge"><h4>Mandela Effect Challenge</h4></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- ROW 2 -->
-            <div class="small-img-container-2">
-                <div class="img-3-container">
-                    <div class="small-img-3">
-                        <div class="img-title">
-                        <a href="https://note-taker-application-327-02a5ee5b2f69.herokuapp.com/" class="img-text" alt="screenshot of Note Taker"><h4>Note Taker</h4></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="img-4-container">
-                    <div class="small-img-4">
-                        <div class="img-title">
-                        <a href="https://samanthashleyrose.github.io/Work-Day-Scheduler/" class="img-text" alt="screenshot of Work Day Scheduler"><h4>Work Day Scheduler</h4></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- ROW 3 -->
-            <div class="small-img-container-3">
-                <div class="img-5-container">
-                    <div class="small-img-5">
-                        <div class="img-title">
-                        <a href="https://samanthashleyrose.github.io/Weather-Dashboard/" class="img-text" alt="screenshot of Weather Dashboard"><h4>Weather Dashboard</h4></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="img-6-container">
-                    <div class="small-img-6">
-                        <div class="img-title">
-                        <a href="https://samanthashleyrose.github.io/Random-Password-Generator/" class="img-text" alt="screenshot of Random Password Generator"><h4>Random Password Generator</h4></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- ROW 4 -->
-            <div class="small-img-container-4">
-                <div class="img-7-container">
-                    <div class="small-img-7">
-                        <div class="img-title">
-                        <a href="https://github.com/samanthashleyrose/README-generator" class="img-text" alt="screenshot of README Generator description"><h4>README Generator</h4></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="img-8-container">
-                    <div class="small-img-8">
-                        <div class="img-title">
-                        <a href="https://github.com/samanthashleyrose/SVG-Logo-Generator" class="img-text" alt="screenshot of SVG Logo Generator description"><h4>SVG Logo Generator</h4></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- ROW 5 -->
-            <div class="small-img-container-5">
-                <div class="img-9-container">
-                    <div class="small-img-9">
-                        <div class="img-title">
-                        <a href="https://github.com/samanthashleyrose" class="img-text" alt-="coming soon peace lily image"><h4>Coming Soon</h4></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="img-10-container">
-                    <div class="small-img-10">
-                        <div class="img-title">
-                        <a href="https://github.com/samanthashleyrose" class="img-text" alt="coming soon peace lily image"><h4>Coming Soon</h4></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         </section>
         <!--CONTACT ME-->
         <section class="contact-container" id="h2-contact">
@@ -152,15 +195,18 @@
                 <div class="anchors">
                     <p><a id="a-1">Email: samantha.rose327@gmail.com</a></p>
                     <br>
-                    <p><a href="https://github.com/samanthashleyrose" id="a-2">GitHub:  samanthashleyrose</a></p>
+                    <p><a href="https://github.com/samanthashleyrose" id="a-2">GitHub: samanthashleyrose</a></p>
                     <br>
                     <a id="a-3">LinkedIn: Coming Soon</a>
                 </div>
             </div>
         </section>
     </main>
-       <!--FOOTER-->
-    <footer class="footer"></footer>
-</body>
 
+    <!--FOOTER-->
+    <footer class="footer"></footer>
+
+    <!-- JS -->
+    <script src="./assets/js/script.js"></script>
+</body>
 </html>
