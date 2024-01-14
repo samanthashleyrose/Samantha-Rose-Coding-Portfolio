@@ -24,7 +24,7 @@ body {
 .header-info {
     padding-top: 3%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 3rem;
+    font-size: 4rem;
     color: var(--main-text-color);
     text-align: center;
 }
@@ -68,6 +68,7 @@ main {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    margin: 5%;
 }
 
 /* ABOUT ME */
@@ -75,7 +76,6 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    margin: 5%;
 }
 
 .h2-about-col {
@@ -106,7 +106,7 @@ h2 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    margin: 5%;
+    margin-top: 5%;
 }
 
 .h2-projects-col {
@@ -114,7 +114,7 @@ h2 {
     flex-direction: column;
     flex-wrap: wrap;
     padding-right: 5%;
-    padding-bottom: 100%;
+    /* padding-bottom: 100%; */
     border-right: .35vw solid #42842e;
     font-size: 3rem;
 }
@@ -139,8 +139,9 @@ h2 {
 .large-img1 {
     background-image: url(../images/rooms-sc.png);
     background-repeat: no-repeat;
-    background-size: 100%;
-    height: 250px;
+    background-size:cover;
+    background-position: center;
+    height: 600px;
     border: 1vw solid #42842e;
     border-style: groove;
 }
@@ -391,7 +392,7 @@ h2 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    margin: 5%;
+    margin-top: 5%;
 }
 
 .h2-contact-col {
