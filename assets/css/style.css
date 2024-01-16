@@ -751,6 +751,10 @@ h2 {
         font-size: 3rem;
     }
 
+    .header-img {
+        max-width: 27%;
+    }
+
     button {
         font-size: 1.1rem;
     }
@@ -809,6 +813,10 @@ h2 {
         font-size: 3.5rem;
     }
 
+    .header-img {
+        max-width: 25%;
+    }
+
     button {
         font-size: 1.2rem;
     }
@@ -865,6 +873,10 @@ h2 {
 @media (min-width: 1501px) {
     .header-info {
         font-size: 3.5rem;
+    }
+
+    .header-img {
+        max-width: 20%;
     }
 
     button {
