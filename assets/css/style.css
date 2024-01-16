@@ -788,6 +788,7 @@ h2 {
     .small-img-10 {
         height: 150px;
         border: 1vw solid #42842e;
+        border-style: groove;
     }
 
     .img-text {
@@ -805,18 +806,18 @@ h2 {
 /* XL */
 @media (min-width: 1001px) and (max-width: 1500px) {
     .header-info {
-        font-size: 3.8rem;
+        font-size: 3.5rem;
     }
 
     button {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .h2-about-col,
     .h2-projects-col,
     .h2-contact-col {
         flex-direction: row;
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         border-right: .4vw solid #42842e;
     }
 
@@ -824,13 +825,13 @@ h2 {
     .images-col,
     .contact-col {
         flex-wrap: nowrap;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         margin-left: 5%;
     }
 
     .large-img1,
     .large-img2 {
-        height: 250px;
+        height: 200px;
     }
 
     .small-img-1,
@@ -849,13 +850,71 @@ h2 {
     }
 
     .img-text {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     #a-1,
     #a-2,
     #a-3 {
+        font-size: 1.1rem;
+        border-bottom: .35vw solid #42842e;
+    }
+}
+
+/* XXL */
+@media (min-width: 1501px) {
+    .header-info {
+        font-size: 3.5rem;
+    }
+
+    button {
         font-size: 1.3rem;
-        border-bottom: .4vw solid #42842e;
+    }
+
+    .h2-about-col,
+    .h2-projects-col,
+    .h2-contact-col {
+        flex-direction: row;
+        font-size: 2.5rem;
+        border-right: .4vw solid #42842e;
+    }
+
+    .p-about-col,
+    .images-col,
+    .contact-col {
+        flex-wrap: nowrap;
+        font-size: 1.3rem;
+        margin-left: 5%;
+    }
+
+    .large-img1,
+    .large-img2 {
+        height: 250px;
+    }
+
+    .small-img-1,
+    .small-img-2,
+    .small-img-3,
+    .small-img-4,
+    .small-img-5,
+    .small-img-6,
+    .small-img-7,
+    .small-img-8,
+    .small-img-9,
+    .small-img-10 {
+        height: 250px;
+        border: 1vw solid #42842e;
+        border-style: groove;
+    }
+
+    .img-text {
+        font-size: 1.3rem;
+    }
+
+    #a-1,
+    #a-2,
+    #a-3 {
+        font-size: 1.2rem;
+        border-bottom: .35vw solid #42842e;
     }
 }
