@@ -132,13 +132,14 @@ h2 {
 /* LARGE IMG ROW */
 .large-img-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .large-img1-container {
-    width: 45%;
+    width: 100%;
+    margin-bottom: 5%;
 }
 
 .large-img1 {
@@ -152,7 +153,7 @@ h2 {
 }
 
 .large-img2-container {
-    width: 45%;
+    width: 100%;
 }
 
 .large-img2 {
@@ -467,23 +468,16 @@ h2 {
         width: 100%;
     }
 
-    .large-img-container {
-        flex-direction: column;
-        margin-top: 5%;
-    }
-
     .small-img-container-1,
     .small-img-container-2,
     .small-img-container-3 {
         flex-direction: column;
     }
 
-    .large-img2-container {
-        width: 100%;
-        margin-top: 5%;
+    .large-img1-container {
+        margin-bottom: 5%;
     }
 
-    .large-img1-container,
     .img-1-container,
     .img-2-container,
     .img-3-container,
@@ -576,23 +570,16 @@ h2 {
         width: 100%;
     }
 
-    .large-img-container {
-        flex-direction: column;
-        margin-top: 5%;
-    }
-
     .small-img-container-1,
     .small-img-container-2,
     .small-img-container-3 {
         flex-direction: column;
     }
 
-    .large-img2-container {
-        width: 100%;
-        margin-top: 5%;
+    .large-img1-container {
+        margin-bottom: 5%;
     }
 
-    .large-img1-container,
     .img-1-container,
     .img-2-container,
     .img-3-container,
@@ -685,23 +672,16 @@ h2 {
         width: 100%;
     }
 
-    .large-img-container {
-        flex-direction: column;
-        margin-top: 5%;
-    }
-
     .small-img-container-1,
     .small-img-container-2,
     .small-img-container-3 {
         flex-direction: column;
     }
 
-    .large-img2-container {
-        width: 100%;
-        margin-top: 5%;
+    .large-img1-container {
+        margin-bottom: 5%;
     }
 
-    .large-img1-container,
     .img-1-container,
     .img-2-container,
     .img-3-container,
@@ -777,7 +757,7 @@ h2 {
 
     .large-img1,
     .large-img2 {
-        height: 200px;
+        height: 250px;
     }
 
     .small-img-1,
@@ -790,7 +770,7 @@ h2 {
     .small-img-8,
     .small-img-9,
     .small-img-10 {
-        height: 150px;
+        height: 175px;
         border: 1vw solid #42842e;
         border-style: groove;
     }
@@ -839,7 +819,7 @@ h2 {
 
     .large-img1,
     .large-img2 {
-        height: 200px;
+        height: 350px;
     }
 
     .small-img-1,
@@ -901,7 +881,7 @@ h2 {
 
     .large-img1,
     .large-img2 {
-        height: 250px;
+        height: 400px;
     }
 
     .small-img-1,
@@ -914,7 +894,7 @@ h2 {
     .small-img-8,
     .small-img-9,
     .small-img-10 {
-        height: 250px;
+        height: 275px;
         border: 1vw solid #42842e;
         border-style: groove;
     }
