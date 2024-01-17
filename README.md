@@ -13,7 +13,7 @@ No installation necessary!
 
 You may begin by using the Navigation Links to bring you to your desired topic. The titles attached to the images displaying my projects are active links to the deployed sites. In addition, a link to my GitHub Portfolio is attached to both the GitHub nav icon and my GitHub username (located under Contact Me). <a href="https://samanthashleyrose.github.io/Samantha-Rose-Coding-Portfolio/">View Samantha Rose's Coding Portfolio</a>
 
-![Fullscren Screenshot of Portfolio](assets/images/portfolio-sc.png)
+![Fullscren Screenshot of Portfolio](assets/images/1:17:24-port-sc.html.png)
 
 ## Credits
 
