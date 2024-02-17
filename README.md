@@ -17,7 +17,7 @@ You may begin by using the Navigation Links to bring you to your desired topic. 
 
 ## Credits
 
-#### Knowledge Assitance From:
+#### Knowledge Assistance From:
 <li>Lee Warrick <a href="https://leewarrick.com/">Personal Portfolio</a></li>
 <li>Mia Ciasullo <a href="https://github.com/miacias/first-portfolio">GitHub Portfolio</a></li>
 <li>Robby Kurkle (Tutor) <a href="https://github.com/rfnkurle">GitHub Portfolio</a></li>
